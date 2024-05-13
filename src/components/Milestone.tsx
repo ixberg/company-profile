@@ -3,7 +3,7 @@ import React from "react";
 const Milestone = () => {
   return (
     <div>
-      <div></div>
+      <div>page</div>
     </div>
   );
 };
