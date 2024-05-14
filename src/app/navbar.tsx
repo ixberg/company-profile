@@ -16,7 +16,7 @@ const Header = () => {
         priority={true}
       />
       <div className="hidden lg:flex xl:flex">
-        <ul className="gap-10 flex">
+        <ul className="gap-10 flex text-sm">
           <li
             className={`${pathName === "/" ? "text-black" : "text-slate-500"}`}
           >

@@ -6,7 +6,7 @@ const Services: React.FC = () => {
   return (
     <section className="px-8 pt-12 w-full max-w-[1440px] md:px-20 lg:px-[120px] xl:px-[144px] xl:mt-10">
       <div className="flex flex-col gap-5 pb-8">
-        <h2 className="text-4xl font-semibold tracking-tight md:text-5xl lg:text-[80px] xl:text-[100px]">
+        <h2 className="text-4xl font-normal tracking-tight md:text-5xl lg:text-[60px] xl:text-[90px]">
           Services
         </h2>
         <div className="flex flex-col justify-between items-start gap-5 md:flex-row">
@@ -17,7 +17,7 @@ const Services: React.FC = () => {
           <Button>View All</Button>
         </div>
       </div>
-      <div className="flex flex-col gap-4">
+      <div className="flex flex-col gap-4 md:mt-5">
         <div className="flex flex-col sm:flex-row justify-between gap-4 xl:gap-8">
           <div className="basis-2/5">
             <Card

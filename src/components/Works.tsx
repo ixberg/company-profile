@@ -6,7 +6,7 @@ const Works = () => {
   return (
     <section className="px-8 py-12 w-full max-w-[1440px] md:px-20 lg:px-[120px] xl:px-[144px] xl:mt-10">
       <div className="flex flex-col gap-5 pb-8">
-        <h2 className="text-4xl font-semibold tracking-tight md:text-5xl lg:text-[80px] xl:text-[100px]">
+        <h2 className="text-4xl font-normal tracking-tight md:text-5xl lg:text-[60px] xl:text-[90px]">
           Selected Work
         </h2>
         <div className="flex flex-col justify-between items-start gap-5 md:flex-row">
@@ -16,7 +16,7 @@ const Works = () => {
           </p>
           <Button>View All</Button>
         </div>
-        <div className="flex flex-col gap-4 md:flex-row xl:gap-8">
+        <div className="flex flex-col gap-4 md:flex-row md:mt-8 xl:gap-8">
           <Card
             image="/work2-image.png"
             title="Not Real"
