@@ -9,7 +9,7 @@ const Milestone = () => {
         <h5 className="text-slate-500">Trusted by global company</h5>
         <Marquee gradient={true} autoFill={true} pauseOnHover={true} speed={70}>
           <Image
-            src="companys-logo/company logo.svg"
+            src="/company logo.svg"
             alt="companylogo"
             width={192.5}
             height={60}
@@ -17,7 +17,7 @@ const Milestone = () => {
             style={{ width: "auto", height: "auto" }}
           ></Image>
           <Image
-            src="companys-logo/company logo2.svg"
+            src="/company logo2.svg"
             alt="companylogo"
             width={210}
             height={60}
@@ -25,7 +25,7 @@ const Milestone = () => {
             style={{ width: "auto", height: "auto" }}
           ></Image>
           <Image
-            src="companys-logo/company logo3.svg"
+            src="/company logo3.svg"
             alt="companylogo"
             width={138.75}
             height={60}
@@ -33,7 +33,7 @@ const Milestone = () => {
             style={{ width: "auto", height: "auto" }}
           ></Image>
           <Image
-            src="companys-logo/company logo6.svg"
+            src="/company logo6.svg"
             alt="companylogo"
             width={160}
             height={60}
@@ -41,7 +41,7 @@ const Milestone = () => {
             style={{ width: "auto", height: "auto" }}
           ></Image>
           <Image
-            src="companys-logo/company logo5.svg"
+            src="/company logo5.svg"
             alt="companylogo"
             width={141.25}
             height={60}
@@ -49,7 +49,7 @@ const Milestone = () => {
             style={{ width: "auto", height: "auto" }}
           ></Image>
           <Image
-            src="companys-logo/company logo7.svg"
+            src="/company logo7.svg"
             alt="companylogo"
             width={166.25}
             height={60}
