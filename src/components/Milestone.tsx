@@ -15,6 +15,7 @@ const Milestone = () => {
             height={60}
             className="mx-6 xl:mx-10"
             style={{ width: "auto", height: "auto" }}
+            priority={true}
           ></Image>
           <Image
             src="/company logo2.svg"
@@ -23,6 +24,7 @@ const Milestone = () => {
             height={60}
             className="mx-6 xl:mx-10"
             style={{ width: "auto", height: "auto" }}
+            priority={true}
           ></Image>
           <Image
             src="/company logo3.svg"
@@ -31,6 +33,7 @@ const Milestone = () => {
             height={60}
             className="mx-6 xl:mx-10"
             style={{ width: "auto", height: "auto" }}
+            priority={true}
           ></Image>
           <Image
             src="/company logo6.svg"
@@ -39,6 +42,7 @@ const Milestone = () => {
             height={60}
             className="mx-6 xl:mx-10"
             style={{ width: "auto", height: "auto" }}
+            priority={true}
           ></Image>
           <Image
             src="/company logo5.svg"
@@ -47,6 +51,7 @@ const Milestone = () => {
             height={60}
             className="mx-6 xl:mx-10"
             style={{ width: "auto", height: "auto" }}
+            priority={true}
           ></Image>
           <Image
             src="/company logo7.svg"
@@ -55,6 +60,7 @@ const Milestone = () => {
             height={60}
             className="mx-6 xl:mx-10"
             style={{ width: "auto", height: "auto" }}
+            priority={true}
           ></Image>
         </Marquee>
       </div>
