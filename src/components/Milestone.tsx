@@ -9,8 +9,8 @@ const Milestone = () => {
         <h5 className="text-slate-500">Trusted by global company</h5>
         <Marquee gradient={true} autoFill={true} pauseOnHover={true} speed={70}>
           <Image
-            src="/company logo.svg"
-            alt="companylogo"
+            src="/company-logo1.png"
+            alt="companylogo1"
             width={192.5}
             height={60}
             className="mx-6 xl:mx-10"
@@ -18,8 +18,8 @@ const Milestone = () => {
             priority={true}
           ></Image>
           <Image
-            src="/company logo2.svg"
-            alt="companylogo"
+            src="/company-logo2.png"
+            alt="companylogo2"
             width={210}
             height={60}
             className="mx-6 xl:mx-10"
@@ -27,8 +27,8 @@ const Milestone = () => {
             priority={true}
           ></Image>
           <Image
-            src="/company logo3.svg"
-            alt="companylogo"
+            src="/company-logo3.png"
+            alt="companylogo3"
             width={138.75}
             height={60}
             className="mx-6 xl:mx-10"
@@ -36,8 +36,8 @@ const Milestone = () => {
             priority={true}
           ></Image>
           <Image
-            src="/company logo6.svg"
-            alt="companylogo"
+            src="/company-logo4.png"
+            alt="companylogo4"
             width={160}
             height={60}
             className="mx-6 xl:mx-10"
@@ -45,8 +45,8 @@ const Milestone = () => {
             priority={true}
           ></Image>
           <Image
-            src="/company logo5.svg"
-            alt="companylogo"
+            src="/company-logo5.png"
+            alt="companylogo5"
             width={141.25}
             height={60}
             className="mx-6 xl:mx-10"
@@ -54,8 +54,8 @@ const Milestone = () => {
             priority={true}
           ></Image>
           <Image
-            src="/company logo7.svg"
-            alt="companylogo"
+            src="/company-logo7.png"
+            alt="companylogo7"
             width={166.25}
             height={60}
             className="mx-6 xl:mx-10"
