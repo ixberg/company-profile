@@ -4,8 +4,8 @@ import Card from "./ui/Card";
 
 const Works = () => {
   return (
-    <section className="px-8 py-12 w-full max-w-[1440px] md:px-20 lg:px-[120px] xl:px-[144px] xl:mt-10">
-      <div className="flex flex-col gap-5 pb-8">
+    <section className="px-8 pt-12 w-full max-w-[1440px] md:px-20 lg:px-[120px] xl:px-[144px] xl:mt-10">
+      <div className="flex flex-col gap-5">
         <h2 className="text-4xl font-normal tracking-tight md:text-5xl lg:text-[60px] xl:text-[90px]">
           Selected Work
         </h2>

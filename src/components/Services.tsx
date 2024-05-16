@@ -4,7 +4,7 @@ import Card from "./ui/Card";
 
 const Services: React.FC = () => {
   return (
-    <section className="px-8 pt-12 w-full max-w-[1440px] md:px-20 lg:px-[120px] xl:px-[144px] xl:mt-10">
+    <section className="px-8 pt-12 w-full max-w-[1440px] md:px-20 lg:px-[120px] xl:px-[144px]">
       <div className="flex flex-col gap-5 pb-8">
         <h2 className="text-4xl font-normal tracking-tight md:text-5xl lg:text-[60px] xl:text-[90px]">
           Services

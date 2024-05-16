@@ -19,7 +19,7 @@ const Card: React.FC<cardProps> = ({ image, title, badge, children }) => {
           width={500}
           height={500}
           quality={100}
-          priority={false}
+          priority
           className="object-cover w-full h-full transition-transform transform hover:scale-110"
         />
       </div>

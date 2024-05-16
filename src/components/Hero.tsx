@@ -45,11 +45,12 @@ const Hero: React.FC = () => {
         <Image
           src="/heroImage.png"
           alt="heroImage"
-          width={1400}
-          height={1400}
-          priority={true}
+          width={500}
+          height={500}
+          priority
           quality={100}
           className="object-cover w-full transition-transform transform hover:scale-110"
+          style={{ width: "100%", height: "auto" }}
         ></Image>
       </div>
     </section>

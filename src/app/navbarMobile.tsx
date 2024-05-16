@@ -8,7 +8,7 @@ const Navbar = () => {
   const pathName = usePathname();
 
   return (
-    <div className="flex w-screen h-fit justify-center lg:hidden">
+    <div className="flex w-screen h-fit justify-center lg:hidden absolute z-50">
       <ul className="flex fixed bottom-5 h-fit rounded-2xl p-2 gap-[6px] backdrop-blur-md bg-[#DEE5E9]/80 shadow-md items-center text-sm">
         <li
           className={`p-[10px] rounded-xl min-w-[42px] ${

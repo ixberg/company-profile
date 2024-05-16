@@ -25,7 +25,7 @@ const config = {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         primary: {
-          DEFAULT: "#00777F",
+          DEFAULT: "#2e4acd",
           foreground: "hsl(var(--primary-foreground))",
         },
         secondary: {

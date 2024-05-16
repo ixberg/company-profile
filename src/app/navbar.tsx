@@ -8,13 +8,17 @@ const Header = () => {
   const pathName = usePathname();
   return (
     <div className="w-full bg-white border-b-2 border-slate-100 flex justify-center items-center h-[10vh] lg:justify-between lg:px-[120px] xl:justify-between xl:px-[144px]">
-      <Image
-        src="/wavei.svg"
-        alt="logobrand"
-        width={77}
-        height={53}
-        priority={true}
-      />
+      <div className="flex gap-4 items-center">
+        <Image
+          src="/wavei.svg"
+          alt="logobrand"
+          width={40}
+          height={30}
+          priority={true}
+        />
+        <p className="font-semibold hidden lg:inline">Overlays</p>
+      </div>
+
       <div className="hidden lg:flex xl:flex">
         <ul className="gap-10 flex text-sm">
           <li

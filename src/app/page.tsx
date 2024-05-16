@@ -5,6 +5,7 @@ import Image from "next/image";
 import Services from "@/components/Services";
 import Works from "@/components/Works";
 import Milestone from "@/components/Milestone";
+import Testimonials from "@/components/Testimonials";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Milestone></Milestone>
       <Services></Services>
       <Works></Works>
+      <Testimonials></Testimonials>
     </main>
   );
 }

@@ -1,0 +1,9 @@
+.swiper-button-prev,
+.swiper-button-next {
+  color: #ff0000; /* Ganti dengan warna yang Anda inginkan */
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  color: #00ff00; /* Ganti dengan warna hover yang Anda inginkan */
+}

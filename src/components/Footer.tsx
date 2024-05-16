@@ -40,17 +40,6 @@ const Footer = () => {
           </li>
         </ul>
       </div>
-      <div className="flex justify-center w-full h-[30vh]">
-        <Image
-          src="/footerImage.png"
-          alt="footer image"
-          width={1440}
-          height={1440}
-          quality={100}
-          className="object-cover w-full"
-          style={{ height: "100%", width: "100%" }}
-        ></Image>
-      </div>
     </div>
   );
 };
