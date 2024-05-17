@@ -10,16 +10,16 @@ const Navbar = () => {
   return (
     <div className="flex w-screen h-fit justify-center lg:hidden absolute z-50">
       <ul className="flex fixed bottom-5 h-fit rounded-2xl p-2 gap-[6px] backdrop-blur-md bg-[#DEE5E9]/80 shadow-md items-center text-sm">
-        <li
-          className={`p-[10px] rounded-xl min-w-[42px] ${
-            pathName === "/"
-              ? "border-[1px] border-primary bg-primary text-white"
-              : "border-[1px] border-white bg-white/25"
-          }`}
-        >
-          <Link href="/">
+        <Link href="/">
+          <li
+            className={`p-[10px] rounded-xl min-w-[42px] ${
+              pathName === "/"
+                ? "border-[1px] border-primary bg-primary text-white"
+                : "border-[1px] border-white bg-white/25"
+            }`}
+          >
             <Image
-              src="/home-ic.svg"
+              src="/icon/home-ic.svg"
               alt="homeic"
               width={20}
               height={20}
@@ -27,44 +27,52 @@ const Navbar = () => {
                 pathName === "/" ? "invert" : ""
               }`}
             ></Image>
-          </Link>
-        </li>
-        <li
-          className={`p-[10px] rounded-xl ${
-            pathName === "/about"
-              ? "border-[1px] border-primary bg-primary text-white"
-              : "border-[1px] border-white bg-white/25"
-          }`}
-        >
-          <Link href="/about">About</Link>
-        </li>
-        <li
-          className={`p-[10px] rounded-xl ${
-            pathName === "/works"
-              ? "border-[1px] border-primary bg-primary text-white"
-              : "border-[1px] border-white bg-white/25"
-          }`}
-        >
-          <Link href="/works">Works</Link>
-        </li>
-        <li
-          className={`p-[10px] rounded-xl ${
-            pathName === "/services"
-              ? "border-[1px] border-primary bg-primary text-white"
-              : "border-[1px] border-white bg-white/25"
-          }`}
-        >
-          <Link href="/services">Services</Link>
-        </li>
-        <li
-          className={`p-[10px] rounded-xl ${
-            pathName === "/teams"
-              ? "border-[1px] border-primary bg-primary text-white"
-              : "border-[1px] border-white bg-white/25"
-          }`}
-        >
-          <Link href="/teams">Teams</Link>
-        </li>
+          </li>
+        </Link>
+        <Link href="/about">
+          <li
+            className={`p-[10px] rounded-xl ${
+              pathName === "/about"
+                ? "border-[1px] border-primary bg-primary text-white"
+                : "border-[1px] border-white bg-white/25"
+            }`}
+          >
+            About
+          </li>
+        </Link>
+        <Link href="/services">
+          <li
+            className={`p-[10px] rounded-xl ${
+              pathName === "/services"
+                ? "border-[1px] border-primary bg-primary text-white"
+                : "border-[1px] border-white bg-white/25"
+            }`}
+          >
+            Services
+          </li>
+        </Link>
+        <Link href="/works">
+          <li
+            className={`p-[10px] rounded-xl ${
+              pathName === "/works"
+                ? "border-[1px] border-primary bg-primary text-white"
+                : "border-[1px] border-white bg-white/25"
+            }`}
+          >
+            Works
+          </li>
+        </Link>
+        <Link href="/teams">
+          <li
+            className={`p-[10px] rounded-xl ${
+              pathName === "/teams"
+                ? "border-[1px] border-primary bg-primary text-white"
+                : "border-[1px] border-white bg-white/25"
+            }`}
+          >
+            Teams
+          </li>
+        </Link>
       </ul>
     </div>
   );

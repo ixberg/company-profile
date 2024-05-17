@@ -1,14 +1,15 @@
-import { Button } from "@/components/ui/button";
+import Hero from "@/components/About/Hero";
+import Philosophy from "@/components/About/Philosophy";
+import Teams from "@/components/About/Teams";
 import React from "react";
 
 const About = () => {
   return (
-    <div>
-      <div>
-        <Button>Start a Project?</Button>
-        <Button variant={"secondary"}>Start a project?</Button>
-      </div>
-    </div>
+    <main className="flex min-h-screen flex-col items-center">
+      <Hero />
+      <Philosophy />
+      <Teams />
+    </main>
   );
 };
 

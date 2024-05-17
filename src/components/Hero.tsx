@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Hero: React.FC = () => {
   return (
-    <section className="pt-12 px-8 xl:px-[144px] flex flex-col w-full gap-10 max-w-[1440px] md:px-[80px] lg:px-[120px]">
+    <section className="mt-[10vh] pt-12 px-8 xl:px-[144px] flex flex-col w-full gap-10 max-w-[1440px] md:px-[80px] lg:px-[120px]">
       <div className="flex items-center gap-3 ml-[34px]">
         <div className="flex">
           <div className="flex">
@@ -34,8 +34,8 @@ const Hero: React.FC = () => {
       </h1>
       <div className="flex flex-col gap-y-8 md:flex-row md:justify-between xl:mt-8">
         <p className="max-w-[20rem] md:max-w-96 xl:text-xl xl:max-w-[500px]">
-          Established in 2012, Wave-i stands as a premier strategic branding and
-          design agency.
+          Established in 2012, Overlays stands as a premier strategic branding
+          and design agency.
         </p>
         <Link href="/services">
           <Button className="w-fit">Start a project?</Button>

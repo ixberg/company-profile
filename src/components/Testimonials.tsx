@@ -6,41 +6,9 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Pagination, Navigation, Autoplay } from "swiper/modules";
+import { testimonialsData } from "@/data/testimonial";
 
 const Testimonials = () => {
-  const testimonials = [
-    {
-      id: 1,
-      quote: "This is the best service I've ever used. Highly recommended!",
-      author: "John Doe",
-      title: "CTO Adobe",
-      image: "/avatar1.png",
-    },
-    {
-      id: 2,
-      quote: "Fantastic experience and excellent support. Five stars!",
-      author: "Jane Smith",
-      title: "Product Manager at Airbnb",
-      image: "/avatar2.png",
-    },
-    {
-      id: 3,
-      quote:
-        "The UI/UX design is exceptional and the web solutions are cutting-edge.",
-      author: "Alice Johnson",
-      title: "CEO Tokopaedi",
-      image: "/avatar3.png",
-    },
-    {
-      id: 4,
-      quote:
-        "The UI/UX design is exceptional and the web solutions are cutting-edge.",
-      author: "Alice Johnson",
-      title: "CEO Tokopaedi",
-      image: "/avatar3.png",
-    },
-  ];
-
   return (
     <section className="px-8 py-12 w-full max-w-[1440px] md:px-20 lg:px-[120px] xl:px-[144px]">
       <div className="flex flex-col gap-5 pb-8">
@@ -76,13 +44,18 @@ const Testimonials = () => {
             },
           }}
         >
-          {testimonials.map((testimonial) => (
+          {testimonialsData.map((testimonial) => (
             <SwiperSlide key={testimonial.id}>
-              <div className="">
-                <div className="bg-slate-100 p-6 rounded-sm flex flex-col gap-4 h-[300px] justify-between">
-                  <p className="text-xl font-light text-slate-700">
-                    {testimonial.quote}
-                  </p>
+              <div className="h-full">
+                <div className="bg-slate-100 p-8 rounded-xl flex flex-col gap-4 h-full justify-between">
+                  <div className="flex flex-col gap-2">
+                    <p className="text-xl text-slate-700">
+                      {testimonial.quote}
+                    </p>
+                    <p className="text-sm font-light text-slate-700">
+                      {testimonial.desc}
+                    </p>
+                  </div>
                   <div className="flex items-center gap-3">
                     <Image
                       src={testimonial.image}
