@@ -42,16 +42,16 @@ const Hero: React.FC = () => {
         </Link>
       </div>
       <div className="flex items-center justify-center relative rounded-3xl overflow-hidden xl:mt-8 xl:h-[720px]">
-        <Image
-          src="/heroImage.png"
-          alt="heroImage"
+        <video
+          src="https://res.cloudinary.com/dhhnqrf1p/video/upload/v1716246444/Digital_Grapes_jsid0v.mp4"
           width={500}
           height={500}
-          priority
-          quality={100}
+          autoPlay
+          loop
+          muted
           className="object-cover w-full transition-transform transform hover:scale-110"
-          style={{ width: "100%", height: "auto" }}
-        ></Image>
+          style={{ width: "100%", height: "100%" }}
+        ></video>
       </div>
     </section>
   );

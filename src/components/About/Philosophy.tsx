@@ -36,8 +36,10 @@ const Philosophy = () => {
             pretty; we&apos;re about creating digital solutions that work.
           </p>
           <div className="flex flex-col gap-2">
-            <p className="font-bold text-4xl">
-              Our <span className="text-yellow-500 text-5xl">1st</span> decade
+            <p className="font-semibold text-4xl">
+              Our{" "}
+              <span className="text-primary-800 text-5xl font-bold">1st</span>{" "}
+              decade
             </p>
             <p className="text-sm text-slate-500">
               Founded in 2012, Overlays excels in strategic branding and design.

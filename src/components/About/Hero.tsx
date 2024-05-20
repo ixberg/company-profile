@@ -20,10 +20,10 @@ const Hero = () => {
       </div>
       <div className="rounded-3xl overflow-hidden h-[300px] lg:h-[400px] xl:h-[500px]">
         <Image
-          src="/assets/about.webp"
+          src="https://res.cloudinary.com/dhhnqrf1p/image/upload/v1716245234/about_po7ne3.webp"
           alt="aboutimage"
-          width={500}
-          height={500}
+          width={1728}
+          height={1296}
           priority
           className="object-cover w-full h-full"
         ></Image>
