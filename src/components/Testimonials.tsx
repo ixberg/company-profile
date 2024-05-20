@@ -6,7 +6,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Pagination, Navigation, Autoplay } from "swiper/modules";
-import { testimonialsData } from "@/data/testimonial";
+import { testimonialsData } from "@/data/data";
 
 const Testimonials = () => {
   return (

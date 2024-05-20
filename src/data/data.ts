@@ -1,3 +1,5 @@
+// Dummy Data
+
 export const testimonialsData = [
   {
     id: 1,
@@ -33,4 +35,26 @@ export const testimonialsData = [
     title: "CEO Tokopaedi",
     image: "/avatar1.png",
   },
+];
+
+export const services = [
+  { value: "branding", label: "Branding" },
+  { value: "design", label: "Graphic Design" },
+  { value: "webdev", label: "Web Development" },
+  { value: "app", label: "App Design" },
+  { value: "dashboard", label: "Dashboard" },
+  { value: "motion", label: "Motion" },
+  { value: "uiux", label: "UX Design" },
+  { value: "illustration", label: "Illustration" },
+  { value: "marketing", label: "Marketing" },
+  { value: "seo", label: "SEO" },
+];
+
+export const buget = [
+  { value: "under", label: "<5000" },
+  { value: "base", label: "5-10K" },
+  { value: "first", label: "10-20k" },
+  { value: "midle", label: "20-30k" },
+  { value: "intermediate", label: "30-50k" },
+  { value: "high", label: ">50.000" },
 ];

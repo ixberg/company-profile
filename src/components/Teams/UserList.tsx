@@ -17,13 +17,13 @@ const UserList = () => {
 
   const designerUsers = users.slice(0, 4);
   const businessUsers = users.slice(4, 7);
-  const developerUsers = users.slice(7, 14);
+  const developerUsers = users.slice(7, 12);
 
   return (
     <section className="px-8 py-8 pb-24 w-full max-w-[1440px] md:px-20 lg:px-[120px] xl:px-[144px] flex flex-col gap-12">
       {/* Designer Section */}
       <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
-        <div className="bg-amber-500 h-56 w-full rounded-2xl flex flex-col items-center justify-center gap-2 xl:h-64">
+        <div className="bg-indigo-800 h-56 w-full rounded-2xl flex flex-col items-center justify-center gap-2 xl:h-64">
           <div className="p-2 rounded-full bg-white/10">
             <Image
               src="/icon/paint.svg"
@@ -32,7 +32,7 @@ const UserList = () => {
               height={24}
             />
           </div>
-          <h1 className="text-white font-bold">Designer</h1>
+          <h1 className="text-white font-bold lg:text-xl">Designer</h1>
         </div>
         {designerUsers.map((user) => (
           <UserCard2
@@ -44,7 +44,7 @@ const UserList = () => {
       </div>
       {/* Business and Marketing Section */}
       <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
-        <div className=" bg-red-500 h-56 w-full rounded-2xl flex flex-col items-center justify-center gap-2 xl:h-64">
+        <div className=" bg-rose-800 h-56 w-full rounded-2xl flex flex-col items-center justify-center gap-2 xl:h-64">
           <div className="p-2 rounded-full bg-white/10">
             <Image
               src="/icon/target.svg"
@@ -53,7 +53,7 @@ const UserList = () => {
               height={24}
             />
           </div>
-          <h1 className="text-white font-bold text-center">
+          <h1 className="text-white font-bold text-center lg:text-xl">
             Business and <br />
             Marketing
           </h1>
@@ -68,7 +68,7 @@ const UserList = () => {
       </div>
       {/* Developer Section */}
       <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
-        <div className=" bg-cyan-600 h-56 w-full rounded-2xl flex flex-col items-center justify-center gap-2 xl:h-64">
+        <div className=" bg-sky-950 h-56 w-full rounded-2xl flex flex-col items-center justify-center gap-2 xl:h-64">
           <div className="p-2 rounded-full bg-white/10">
             <Image
               src="/icon/developer.svg"
@@ -77,7 +77,9 @@ const UserList = () => {
               height={24}
             />
           </div>
-          <h1 className="text-white font-bold text-center">Developer</h1>
+          <h1 className="text-white font-bold text-center lg:text-xl">
+            Developer
+          </h1>
         </div>
         {developerUsers.map((user) => (
           <UserCard2
