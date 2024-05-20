@@ -1,6 +1,7 @@
 import React from "react";
 import { Button } from "./ui/button";
 import Card from "./ui/Card";
+import Link from "next/link";
 
 const Services: React.FC = () => {
   return (
@@ -14,7 +15,9 @@ const Services: React.FC = () => {
             Elevate Your Digital Presence: Expert UI/UX Design & Cutting-Edge
             Web Development
           </p>
-          <Button>View All</Button>
+          <Link href="/services">
+            <Button>View All</Button>
+          </Link>
         </div>
       </div>
       <div className="flex flex-col gap-8 md:mt-5">

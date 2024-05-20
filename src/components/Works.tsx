@@ -1,6 +1,8 @@
 import React from "react";
 import { Button } from "./ui/button";
 import Card from "./ui/Card";
+import { projects } from "@/data/data";
+import Link from "next/link";
 
 const Works = () => {
   return (
@@ -14,21 +16,23 @@ const Works = () => {
             Showcase of Excellence: Premier UI/UX Design & Innovative Web
             Solutions
           </p>
-          <Button>View All</Button>
+          <Link href="/works">
+            <Button>View All</Button>
+          </Link>
         </div>
-        <div className="flex flex-col gap-4 md:flex-row md:mt-8 xl:gap-8">
-          <Card
-            image="/work2-image.png"
-            title="Not Real"
-            badge={["Illustration", "2024"]}
-            badgeType="outline"
-          ></Card>
-          <Card
-            image="/work1-image.png"
-            title="Arca Film"
-            badge={["Web Development", "2023"]}
-            badgeType="outline"
-          ></Card>
+        <div className="grid grid-cols-1 gap-8 sm:grid-cols-1 md:grid-cols-2 lg:gap-10 md:mt-8">
+          {projects
+            .filter((_, index) => index === 1 || index === 2)
+            .map((work) => (
+              <Link key={work.slug} href={`/works/${work.slug}`}>
+                <Card
+                  image={work.image}
+                  title={work.title}
+                  badge={work.badge}
+                  badgeType={work.badgeType}
+                />
+              </Link>
+            ))}
         </div>
       </div>
     </section>
