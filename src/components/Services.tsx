@@ -17,13 +17,14 @@ const Services: React.FC = () => {
           <Button>View All</Button>
         </div>
       </div>
-      <div className="flex flex-col gap-4 md:mt-5">
-        <div className="flex flex-col sm:flex-row justify-between gap-4 xl:gap-8">
+      <div className="flex flex-col gap-8 md:mt-5">
+        <div className="flex flex-col sm:flex-row justify-between gap-8 xl:gap-8">
           <div className="basis-2/5">
             <Card
               image="/uiux-image.png"
               title="UIUX Design"
               badge={["UIUX", "Web Design", "Digital Product"]}
+              badgeType="secondary"
             ></Card>
           </div>
           <div className="basis-3/5">
@@ -31,15 +32,17 @@ const Services: React.FC = () => {
               image="/branding-image.png"
               title="Branding"
               badge={["logo", "Brand Identity", "Visual Identity"]}
+              badgeType="secondary"
             ></Card>
           </div>
         </div>
-        <div className="flex flex-col sm:flex-row-reverse justify-between gap-4 xl:gap-8">
+        <div className="flex flex-col sm:flex-row-reverse justify-between gap-8 xl:gap-8">
           <div className="basis-2/5">
             <Card
               image="/illustration-image.png"
               title="Illustration"
               badge={["Procreate", "Adobe Photoshop", "Krita"]}
+              badgeType="secondary"
             ></Card>
           </div>
           <div className="basis-3/5">
@@ -47,6 +50,7 @@ const Services: React.FC = () => {
               image="/web-image.png"
               title="Web Development"
               badge={["Framer", "React", "Next"]}
+              badgeType="secondary"
             ></Card>
           </div>
         </div>

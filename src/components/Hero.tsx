@@ -37,7 +37,7 @@ const Hero: React.FC = () => {
           Established in 2012, Overlays stands as a premier strategic branding
           and design agency.
         </p>
-        <Link href="/services">
+        <Link href="/contact">
           <Button className="w-fit">Start a project?</Button>
         </Link>
       </div>

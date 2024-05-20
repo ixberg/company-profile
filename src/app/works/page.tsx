@@ -1,11 +1,13 @@
 import React from "react";
-import Works from "@/components/Works";
+import Hero from "@/components/Works/Hero";
+import WorkList from "@/components/Works/WorkList";
 
 const page = () => {
   return (
-    <div>
-      <div>page</div>
-    </div>
+    <main className="flex min-h-screen flex-col items-center">
+      <Hero />
+      <WorkList />
+    </main>
   );
 };
 

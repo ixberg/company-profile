@@ -41,12 +41,12 @@ const Header = () => {
           : "transform -translate-y-full"
       }`}
     >
-      <div className="flex gap-4 items-center">
+      <div className="flex gap-2 items-center">
         <Image
           src="/wavei.svg"
           alt="logobrand"
           width={40}
-          height={30}
+          height={53}
           priority={true}
         />
         <p className="font-semibold hidden lg:inline">Overlays</p>

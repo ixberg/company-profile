@@ -47,7 +47,7 @@ const Testimonials = () => {
           {testimonialsData.map((testimonial) => (
             <SwiperSlide key={testimonial.id}>
               <div className="h-full">
-                <div className="bg-slate-100 p-8 rounded-xl flex flex-col gap-4 h-full justify-between">
+                <div className="bg-white border-[1px] border-slate-200 p-8 rounded-xl flex flex-col gap-4 h-full justify-between">
                   <div className="flex flex-col gap-2">
                     <p className="text-xl text-slate-700">
                       {testimonial.quote}

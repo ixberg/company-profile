@@ -20,12 +20,14 @@ const Works = () => {
           <Card
             image="/work2-image.png"
             title="Not Real"
-            badge={["Illustration"]}
+            badge={["Illustration", "2024"]}
+            badgeType="outline"
           ></Card>
           <Card
             image="/work1-image.png"
             title="Arca Film"
-            badge={["Web Development"]}
+            badge={["Web Development", "2023"]}
+            badgeType="outline"
           ></Card>
         </div>
       </div>
