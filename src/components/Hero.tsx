@@ -44,7 +44,7 @@ const Hero: React.FC = () => {
         <div className="flex">
           <Link href="/about">
             <Button className="w-fit" size="lg" variant="outline">
-              Learn More
+              About Overlays
             </Button>
           </Link>
           <Link href="/contact">
