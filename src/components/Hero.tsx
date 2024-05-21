@@ -29,14 +29,13 @@ const Hero: React.FC = () => {
           <p className="font-normal text-[18px]">Services</p>
         </div>
       </div>
-      <h1
-        className="font-bold tracking-tighter leading-none"
-        style={{ fontSize: "clamp(2rem, 5vw + 1rem, 10rem)" }}
-      >
-        <span className="text-primary">One</span> of the most important pieces
-        of <span className="text-primary">the great</span> product experience{" "}
-        <span className="text-primary">is you</span> <span></span>
-      </h1>
+      <div className="relative">
+        <h1 className="font-bold tracking-tighter leading-none text-responsive">
+          <span className="text-primary">One</span> of the most important pieces
+          of <span className="text-primary">the great</span> product experience{" "}
+          <span className="text-primary">is you</span> <span></span>
+        </h1>
+      </div>
       <div className="flex flex-col gap-y-8 md:flex-row md:item-center md:gap-4 xl:mt-8">
         <p className="w-[320px] text-sm md:w-96 xl:text-xl xl:w-[500px]">
           Established in 2012, Overlays stands as a premier strategic branding

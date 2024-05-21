@@ -59,7 +59,7 @@ const Milestone = () => {
             200 <span>M+</span>
           </h2>
           <div className="flex flex-col gap-2">
-            <h4 className="font-semibold text-lg">Acquisitions</h4>
+            <h2 className="font-semibold text-lg">Acquisitions</h2>
             <p className="text-sm">
               Number of clients who have been acquired following collaboration
               with One Week Wonders
