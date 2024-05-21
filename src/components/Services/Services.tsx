@@ -5,7 +5,7 @@ const Services = () => {
   return (
     <section className="flex flex-col py-10 px-8 gap-12 sm:px-8 md:px-24 lg:px-[200px] xl:px-[320px] lg:pb-10 max-w-[1440px]">
       <Card
-        image="https://res.cloudinary.com/dhhnqrf1p/image/upload/t_Banner 16:9/v1716317450/uiux-image_cr1axi.png"
+        image="https://res.cloudinary.com/dhhnqrf1p/image/upload/v1716318839/uiux-image_mtx3rt.webp"
         title="UIUX Design"
         badge={["UIUX", "Web Design", "Digital Product"]}
       >
@@ -17,7 +17,7 @@ const Services = () => {
         </p>
       </Card>
       <Card
-        image="https://res.cloudinary.com/dhhnqrf1p/image/upload/t_Banner 16:9/v1716317450/branding-image_ztp9pi.png"
+        image="https://res.cloudinary.com/dhhnqrf1p/image/upload/v1716318838/branding-image_jb4d6a.webp"
         title="Branding"
         badge={["logo", "Brand Identity", "Visual Identity"]}
       >
@@ -29,7 +29,7 @@ const Services = () => {
         </p>
       </Card>
       <Card
-        image="https://res.cloudinary.com/dhhnqrf1p/image/upload/t_Banner 16:9/v1716317451/illustration-image_oz8hxx.png"
+        image="https://res.cloudinary.com/dhhnqrf1p/image/upload/v1716318839/illustration-image_lpzcde.webp"
         title="Illustration"
         badge={["Procreate", "Adobe Photoshop", "Krita"]}
       >
@@ -42,7 +42,7 @@ const Services = () => {
         </p>
       </Card>
       <Card
-        image="https://res.cloudinary.com/dhhnqrf1p/image/upload/t_Banner 16:9/v1716317451/web-image_xrjik2.png"
+        image="https://res.cloudinary.com/dhhnqrf1p/image/upload/v1716318840/web-image_nyrhv8.webp"
         title="Web Development"
         badge={["Framer", "React", "Next"]}
       >
