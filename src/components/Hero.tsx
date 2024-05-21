@@ -33,7 +33,7 @@ const Hero: React.FC = () => {
         Digital Services
       </h1>
       <div className="flex flex-col gap-y-8 md:flex-row md:justify-between xl:mt-8">
-        <p className="w-[20rem] md:w-96 xl:text-xl xl:w-[500px]">
+        <p className="w-[320px] md:w-96 xl:text-xl xl:w-[500px]">
           Established in 2012, Overlays stands as a premier strategic branding
           and design agency.
         </p>
