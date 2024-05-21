@@ -15,9 +15,9 @@ const Milestone = () => {
   return (
     <section className="pt-10 xl:pt-20 w-full flex flex-col items-center overflow-hidden">
       <div className="flex flex-col gap-8 justify-center items-center">
-        <h3 className="text-slate-500 w-[200px] text-center md:w-full">
+        <h1 className="text-slate-500 w-[200px] text-center md:w-full">
           Trusted By Thousands of Brands Worldwide
-        </h3>
+        </h1>
         <Marquee autoFill gradient>
           {logoData.map((logo, index) => (
             <Image
@@ -38,7 +38,7 @@ const Milestone = () => {
             <span>$</span>399 <span>M+</span>
           </h2>
           <div className="flex flex-col gap-2">
-            <h4 className="font-semibold text-lg">Capital Raised</h4>
+            <h2 className="font-semibold text-lg">Capital Raised</h2>
             <p className="text-sm">
               Total amount of capital raised following collaboration with One
               Week Wonders

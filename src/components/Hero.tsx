@@ -33,13 +33,10 @@ const Hero: React.FC = () => {
         Digital Services
       </h1>
       <div className="flex flex-col gap-y-8 md:flex-row md:justify-between xl:mt-8">
-        <div className="w-[320px] md:w-96 xl:text-xl xl:w-[500px]">
-          <p>
-            Established in 2012, Overlays stands as a premier strategic branding
-            and design agency.
-          </p>
-        </div>
-
+        <p className="w-[320px] text-sm md:w-96 xl:text-xl xl:w-[500px]">
+          Established in 2012, Overlays stands as a premier strategic branding
+          and design agency.
+        </p>
         <Link href="/contact">
           <Button className="w-fit">Start a project?</Button>
         </Link>
@@ -47,8 +44,6 @@ const Hero: React.FC = () => {
       <div className="flex items-center justify-center relative rounded-3xl overflow-hidden xl:mt-8 xl:h-[720px]">
         <video
           src="https://res.cloudinary.com/dhhnqrf1p/video/upload/v1716246444/Digital_Grapes_jsid0v.mp4"
-          width={500}
-          height={500}
           autoPlay
           loop
           muted
