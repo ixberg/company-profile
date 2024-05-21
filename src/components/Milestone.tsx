@@ -48,7 +48,7 @@ const Milestone = () => {
         <div className="flex flex-col gap-4 p-8 bg-slate-100 rounded-3xl basis-1/3">
           <h2 className="font-semibold text-4xl text-slate-900">20</h2>
           <div className="flex flex-col gap-2">
-            <h4 className="font-semibold text-lg">Unicorn branded</h4>
+            <h2 className="font-semibold text-lg">Unicorn branded</h2>
             <p className="text-sm">
               Unicorn brands that have gained up to $1B valuations post-branding
             </p>

@@ -95,10 +95,10 @@ const Form = () => {
               <ToggleGroupItem
                 key={item.value}
                 value={item.value}
-                className={`px-4 py-3 rounded-full text-sm xl:text-base xl:py-4 hover:bg-slate-50 ${
+                className={`px-4 py-3 rounded-full text-sm xl:text-base xl:py-4 ${
                   selectedBuget === item.value
                     ? "bg-primary text-white hover:bg-primary-800"
-                    : "bg-white"
+                    : "bg-white hover:bg-slate-50"
                 }`}
               >
                 {item.label}

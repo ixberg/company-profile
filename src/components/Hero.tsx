@@ -29,19 +29,32 @@ const Hero: React.FC = () => {
           <p className="font-normal text-[18px]">Services</p>
         </div>
       </div>
-      <h1 className="font-semibold text-5xl tracking-tighter sm:text-[80px] md:text-[100px] lg:text-[150px] xl:text-[170px] ">
-        Digital Services
+      <h1
+        className="font-bold tracking-tighter leading-none"
+        style={{ fontSize: "clamp(2rem, 5vw + 1rem, 10rem)" }}
+      >
+        <span className="text-primary">One</span> of the most important pieces
+        of <span className="text-primary">the great</span> product experience{" "}
+        <span className="text-primary">is you</span> <span></span>
       </h1>
-      <div className="flex flex-col gap-y-8 md:flex-row md:justify-between xl:mt-8">
+      <div className="flex flex-col gap-y-8 md:flex-row md:item-center md:gap-4 xl:mt-8">
         <p className="w-[320px] text-sm md:w-96 xl:text-xl xl:w-[500px]">
           Established in 2012, Overlays stands as a premier strategic branding
           and design agency.
         </p>
-        <Link href="/contact">
-          <Button className="w-fit">Start a project?</Button>
-        </Link>
+        <div className="flex">
+          <Link href="/contact">
+            <Button className="w-fit" size="lg">
+              Start a project?
+            </Button>
+          </Link>
+          <div className="hidden md:flex">
+            <div className="h-14 w-14 bg-primary-900 rounded-full"></div>
+            <div className="h-14 w-14 bg-primary-950 rounded-full"></div>
+          </div>
+        </div>
       </div>
-      <div className="flex items-center justify-center relative rounded-3xl overflow-hidden xl:mt-8 xl:h-[720px]">
+      <div className="flex items-center h-72 justify-center relative rounded-3xl overflow-hidden xl:mt-8 xl:h-[720px]">
         <video
           src="https://res.cloudinary.com/dhhnqrf1p/video/upload/v1716246444/Digital_Grapes_jsid0v.mp4"
           autoPlay
