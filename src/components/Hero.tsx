@@ -56,6 +56,8 @@ const Hero: React.FC = () => {
       <div className="flex items-center h-72 justify-center relative rounded-3xl overflow-hidden xl:mt-8 xl:h-[720px]">
         <video
           src="https://res.cloudinary.com/dhhnqrf1p/video/upload/v1716246444/Digital_Grapes_jsid0v.mp4"
+          width={500}
+          height={500}
           autoPlay
           loop
           muted
