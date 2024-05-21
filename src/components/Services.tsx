@@ -2,15 +2,6 @@ import React from "react";
 import { Button } from "./ui/button";
 import Card from "./ui/Card";
 import Link from "next/link";
-import {
-  Dialog,
-  DialogContent,
-  DialogDescription,
-  DialogFooter,
-  DialogHeader,
-  DialogTitle,
-  DialogTrigger,
-} from "@/components/ui/dialog";
 
 const Services: React.FC = () => {
   return (
@@ -33,7 +24,7 @@ const Services: React.FC = () => {
         <div className="flex flex-col sm:flex-row justify-between gap-8 xl:gap-8">
           <div className="basis-2/5">
             <Card
-              image="/uiux-image.png"
+              image="https://res.cloudinary.com/dhhnqrf1p/image/upload/v1716317450/uiux-image_cr1axi.png"
               title="UIUX Design"
               badge={["UIUX", "Web Design", "Digital Product"]}
               badgeType="secondary"
@@ -41,7 +32,7 @@ const Services: React.FC = () => {
           </div>
           <div className="basis-3/5">
             <Card
-              image="/branding-image.png"
+              image="https://res.cloudinary.com/dhhnqrf1p/image/upload/t_Banner 16:9/v1716317450/branding-image_ztp9pi.png"
               title="Branding"
               badge={["logo", "Brand Identity", "Visual Identity"]}
               badgeType="secondary"
@@ -51,7 +42,7 @@ const Services: React.FC = () => {
         <div className="flex flex-col sm:flex-row-reverse justify-between gap-8 xl:gap-8">
           <div className="basis-2/5">
             <Card
-              image="/illustration-image.png"
+              image="https://res.cloudinary.com/dhhnqrf1p/image/upload/v1716317451/illustration-image_oz8hxx.png"
               title="Illustration"
               badge={["Procreate", "Adobe Photoshop", "Krita"]}
               badgeType="secondary"
@@ -59,7 +50,7 @@ const Services: React.FC = () => {
           </div>
           <div className="basis-3/5">
             <Card
-              image="/web-image.png"
+              image="https://res.cloudinary.com/dhhnqrf1p/image/upload/t_Banner 16:9/v1716317451/web-image_xrjik2.png"
               title="Web Development"
               badge={["Framer", "React", "Next"]}
               badgeType="secondary"
