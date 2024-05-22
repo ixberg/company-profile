@@ -42,16 +42,18 @@ const Hero: React.FC = () => {
           and design agency.
         </p>
         <div className="flex">
-          <Link href="/about">
-            <Button className="w-fit" size="lg" variant="outline">
-              About Overlays
-            </Button>
-          </Link>
-          <Link href="/contact">
-            <Button className="w-fit" size="lg">
-              Start a project?
-            </Button>
-          </Link>
+          <div className="flex flex-col gap-4 sm:flex-row sm:gap-0">
+            <Link href="/about">
+              <Button className="w-fit" size="lg" variant="outline">
+                About Overlays
+              </Button>
+            </Link>
+            <Link href="/contact">
+              <Button className="w-fit" size="lg">
+                Start a project?
+              </Button>
+            </Link>
+          </div>
           <div className="hidden md:flex">
             <div className="h-14 w-14 bg-primary-900 rounded-full"></div>
             <div className="h-14 w-14 bg-primary-950 rounded-full"></div>

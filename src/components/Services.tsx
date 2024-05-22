@@ -2,6 +2,16 @@ import React from "react";
 import { Button } from "./ui/button";
 import Card from "./ui/Card";
 import Link from "next/link";
+import {
+  Drawer,
+  DrawerClose,
+  DrawerContent,
+  DrawerDescription,
+  DrawerFooter,
+  DrawerHeader,
+  DrawerTitle,
+  DrawerTrigger,
+} from "./ui/drawer";
 
 const Services: React.FC = () => {
   return (
@@ -23,12 +33,30 @@ const Services: React.FC = () => {
       <div className="flex flex-col gap-8 md:mt-5">
         <div className="flex flex-col sm:flex-row justify-between gap-8 xl:gap-8">
           <div className="basis-2/5">
-            <Card
-              image="https://res.cloudinary.com/dhhnqrf1p/image/upload/v1716318839/uiux-image_mtx3rt.webp"
-              title="UIUX Design"
-              badge={["UIUX", "Web Design", "Digital Product"]}
-              badgeType="secondary"
-            ></Card>
+            <Drawer>
+              <DrawerTrigger className="w-full">
+                <Card
+                  image="https://res.cloudinary.com/dhhnqrf1p/image/upload/v1716318839/uiux-image_mtx3rt.webp"
+                  title="UIUX Design"
+                  badge={["UIUX", "Web Design", "Digital Product"]}
+                  badgeType="secondary"
+                ></Card>
+              </DrawerTrigger>
+              <DrawerContent>
+                <DrawerHeader>
+                  <DrawerTitle>Are you absolutely sure?</DrawerTitle>
+                  <DrawerDescription>
+                    This action cannot be undone.
+                  </DrawerDescription>
+                </DrawerHeader>
+                <DrawerFooter>
+                  <Button>Submit</Button>
+                  <DrawerClose>
+                    <Button variant="outline">Cancel</Button>
+                  </DrawerClose>
+                </DrawerFooter>
+              </DrawerContent>
+            </Drawer>
           </div>
           <div className="basis-3/5">
             <Card

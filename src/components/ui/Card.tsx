@@ -31,7 +31,7 @@ const Card: React.FC<cardProps> = ({
         />
       </div>
       <div className="flex flex-col gap-2 xl:gap-4">
-        <h1 className="font-medium text-3xl xl:text-4xl tracking-tighter">
+        <h1 className="font-medium text-3xl xl:text-4xl tracking-tighter text-left">
           {title}
         </h1>
         {children && <div>{children}</div>}
